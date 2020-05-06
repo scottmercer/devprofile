@@ -1,12 +1,12 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from "react";
+import Helmet from "react-helmet";
 
-import Gallery from '../components/Gallery'
-import Layout from '../components/layout'
+import Gallery from "../components/Gallery";
+import Layout from "../components/layout";
 
 const HomeIndex = () => {
-  const siteTitle = 'Scott Mercer Portfolio'
-  const siteDescription = 'Web Developer Portfolio'
+  const siteTitle = "Scott Mercer Portfolio";
+  const siteDescription = "Web Developer Portfolio";
 
   return (
     <Layout>
@@ -24,13 +24,20 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            I am a Web Developer since 2018. I have worked on numerous projects
-            part time while being bootcamp and self taught. I have a beautiful
-            wife and three kids that I love to spend time with. The technologies
-            I have worked with most are Html, Css, React, Javascript, Angular,
+            I am a Web Developer and have officially been studying and
+            practicing since 2018. I have worked on numerous projects since
+            completing coding bootcamp from Bethel School of Technology. Bethel
+            School of Technology is affiliated with WozU which is owned by Apple
+            Cofounder Steve Wozniak. I have a beautiful wife and three kids that
+            I love to spend time with. The languages and technologies I have
+            worked with most are Html, Css, React, Javascript, Angular,
             React-Native, Wordpress, PHP, and Node. I have also worked with
             backend technologies such as mongodb, amazon aws, and amazon elastic
-            beanstalk.
+            beanstalk. I am self taught and proud of the sites and web apps I
+            have been able to contribute to. I am currently looking for full
+            time remote work and would love to work for a great company that has
+            a team I can dive in with. If you like my portfolio please get in
+            touch with me at one of the ways below.
           </p>
           <ul className="actions">
             <li>
@@ -128,7 +135,7 @@ const HomeIndex = () => {
         </section>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default HomeIndex
+export default HomeIndex;

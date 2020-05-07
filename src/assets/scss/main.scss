@@ -1014,6 +1014,13 @@ input[type="button"],
 	}
 }
 
+#three {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+}
+
 /* Poptrox */
 
 @include keyframes('spin') {

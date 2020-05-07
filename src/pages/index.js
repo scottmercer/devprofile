@@ -67,9 +67,9 @@ const HomeIndex = () => {
           <p>
             I would love to connect with you. Please feel free to reach out.
           </p>
-          <div className="row">
-            <div className="8u 12u$(small)">
-              <form method="post" action="#">
+          {/* <div className="row"> */}
+          {/* <div className="8u 12u$(small)"> */}
+          {/* <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -101,36 +101,34 @@ const HomeIndex = () => {
                     <input type="submit" value="Send Message" />
                   </li>
                 </ul>
-              </form>
-            </div>
-            <div className="4u 12u$(small)">
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  175 Davis Lake Rd.
-                  <br />
-                  Columbia, LA 71418
-                  <br />
-                  United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  318-210-7315
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="mailto:randall.mercer@yahoo.com">
-                    randall.mercer@yahoo.com
-                  </a>
-                </li>
-              </ul>
-            </div>
+              </form> */}
+          {/* </div> */}
+          <div className="4u 12u$(small)">
+            <ul className="labeled-icons">
+              <li>
+                <h3 className="icon fa-home">
+                  <span className="label">Address</span>
+                </h3>
+                Columbia, LA 71418
+                <br />
+                United States
+              </li>
+              <li>
+                <h3 className="icon fa-mobile">
+                  <span className="label">Phone</span>
+                </h3>
+                318-210-7315
+              </li>
+              <li>
+                <h3 className="icon fa-envelope-o">
+                  <span className="label">Email</span>
+                </h3>
+                <a href="mailto:randall.mercer@yahoo.com">
+                  randall.mercer@yahoo.com
+                </a>
+              </li>
+            </ul>
+            {/* </div> */}
           </div>
         </section>
       </div>
